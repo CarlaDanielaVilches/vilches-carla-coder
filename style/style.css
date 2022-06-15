@@ -21,11 +21,15 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 li {
     list-style-type: none;
+    transition: all 3s ease;
+}
+
+li:hover{
+    transform: scale(1.4)
 }
 
 
@@ -57,6 +61,11 @@ body {
     overflow: hidden;
     margin: 20px;
     text-align: center;
+    transition: all 1s;
+}
+.container .cajas:hover{
+    transform: translateY(40px);
+    box-shadow:0 12px 16px rgb(255,247,247);
 }
 
 img {
