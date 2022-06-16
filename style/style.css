@@ -58,7 +58,6 @@ body {
 .container .cajas {
     width: 330px;
     box-shadow: 0 2px 0px rgb(251, 252, 252);
-    overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 1s;
@@ -118,7 +117,7 @@ img {
     font-size: medium;
     font-weight: 900;
     color: rgb(7, 7, 7);
-        background-color: yellow;
+    background-color: yellow;
     position: absolute;
     top: 87%;
     left: 5%;
@@ -240,8 +239,6 @@ footer {
     #container {
         padding: 15%;
     }
-
-   
 }
 /*mobile*/
 @media (max-width: 500px) {
