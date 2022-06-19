@@ -226,13 +226,12 @@ footer {
     .h4trailers{
         padding-left: 240px;
     }
-    
+
 }
 /*mobile*/
 @media (max-width: 600px) {
     .fotosNoticias {
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 40px;
     }
 
     .fearFoto img {
@@ -254,7 +253,6 @@ footer {
 
     .fotoNoticias-chica {
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 40px;
     }
 
     .foto-chica img {
@@ -272,15 +270,12 @@ footer {
     #containerNoticias {
         padding: 2%;
     }
-    .trailers {
-        padding-left: 1px;
-    }
     .h4trailers{
         padding-left: 0px;
     }
-   .trailersM{
+    .trailersM{
     width: 100%;
-   }
+}
 }
 /*desktop*/
 @media(max-width: 1200px){
