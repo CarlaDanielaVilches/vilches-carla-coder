@@ -287,6 +287,7 @@ footer {
     width: 100%;
 }
     }
+<<<<<<< HEAD
 
 /*desktop*/
 @media(max-width: 1200px) {
@@ -302,3 +303,6 @@ footer {
         padding-left: 100px;
     }
 }
+=======
+}
+>>>>>>> animaciones
