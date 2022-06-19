@@ -119,7 +119,7 @@ iframe {
     font-size: medium;
     font-weight: 900;
     color: rgb(7, 7, 7);
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.5);
     position: absolute;
     top: 87%;
     left: 1%;
@@ -156,7 +156,7 @@ iframe {
     font-size: medium;
     font-weight: 900;
     color: rgb(7, 7, 7);
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.5);
     position: absolute;
     top: 72%;
     left: 0%;
@@ -239,6 +239,7 @@ footer {
 @media (max-width: 600px) {
     .fotosNoticias {
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 40px;
     }
 
     .fearFoto img {
@@ -260,6 +261,10 @@ footer {
 
     .fotoNoticias-chica {
         grid-template-columns: repeat(1, 1fr);
+<<<<<<< HEAD
+=======
+        padding-left: 40px;
+>>>>>>> animaciones
     }
 
     .foto-chica img {
@@ -285,6 +290,9 @@ footer {
     .h4trailers {
         padding-left: 0px;
     }
+   .trailersM{
+    width: 100%;
+   }
 }
 
 /*desktop*/
