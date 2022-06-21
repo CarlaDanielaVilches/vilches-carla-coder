@@ -276,17 +276,19 @@ footer {
     #containerNoticias {
         padding: 0%;
     }
+
     .trailers {
         padding-left: 1px;
     }
+
     .h4trailers{
         padding-left: 0px;
     }
+
     .trailersM{
     width: 100%;
 }
-    }
-
+}
 /*desktop*/
 @media(max-width: 1200px) {
     body {
@@ -297,8 +299,7 @@ footer {
         padding-left: 10px;
     }
 
-    .h4trailers {
+    .h4trailers{
         padding-left: 100px;
     }
-}
 }
