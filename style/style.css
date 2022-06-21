@@ -203,7 +203,6 @@ footer {
 
     .fotoNoticias-chica {
         grid-template-columns: repeat(2, 1fr);
-    
     }
 
     .foto-chica img {
@@ -233,7 +232,6 @@ footer {
 @media (max-width: 600px) {
     .fotosNoticias {
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 0px;
     }
 
     .fearFoto img {
