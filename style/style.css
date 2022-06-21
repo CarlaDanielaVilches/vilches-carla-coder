@@ -258,16 +258,7 @@ footer {
     }
 
     .fotoNoticias-chica {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        grid-template-columns: repeat(1, 1fr);
-        padding-left: 40px;
-=======
         grid-template-columns: repeat(1, 1fr)
->>>>>>> animaciones
-=======
-        grid-template-columns: repeat(1, 2fr)
->>>>>>> animaciones
     }
 
     .foto-chica img {
@@ -295,7 +286,6 @@ footer {
     width: 100%;
 }
     }
-<<<<<<< HEAD
 
 /*desktop*/
 @media(max-width: 1200px) {
@@ -311,6 +301,4 @@ footer {
         padding-left: 100px;
     }
 }
-=======
 }
->>>>>>> animaciones
