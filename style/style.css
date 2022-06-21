@@ -270,21 +270,26 @@ footer {
     #containerNoticias {
         padding: 0%;
     }
+
     .h4trailers{
         padding-left: 0px;
     }
+
     .trailersM{
     width: 100%;
 }
+
 }
 /*desktop*/
 @media(max-width: 1200px){
     body{
         background-color:rgb(231, 231, 231);
     }
+
     .trailers {
         padding-left: 0px;
     }
+    
     .h4trailers{
         padding-left: 100px;
     }
