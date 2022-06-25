@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(255, 255, 255);
+    font-size: 150%;
+    .tituloNav {
+        text-align: center;
+        font-size: 45px;
+        color: rgb(3, 3, 3);
+        font-weight: 900;
+        font-family: 'Anton', sans-serif;
+        text-decoration: none;
+    }
+
+    .navLi {
+        list-style-type: none;
+        font-size: 25px;
+        font-family: serif;
+        transition: all 1s ease;
+        &:hover {
+            transform: scale(1.1)
+        }
+
+    }
+    nav ul{
+        @media (max-width: 1024px) {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+    }
+}
+}

@@ -1,0 +1,21 @@
+form {
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(207, 204, 204, 0.363);
+    .textFooter {
+        font-size: 15px;
+        font-family: 'Anton', sans-serif;
+        display:flex;
+        justify-content: center;
+    }
+    .iconos{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    .icono{
+        color: black;
+    }
+}
+}
