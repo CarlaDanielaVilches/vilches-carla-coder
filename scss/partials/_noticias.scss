@@ -1,0 +1,146 @@
+#containerNoticias {
+    padding: 25px;
+    @media (max-width: 600px) {
+        padding: 0%;
+    }
+
+    @media (max-width: 1024px) {
+        padding: 0%;
+    }
+}
+
+.fotosNoticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+   
+    .fearFoto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        height: 375px;
+        position: relative;
+        margin: 24px;
+
+        @media (max-width: 600px) {
+            width: 335px;
+            height: 290px;
+            margin: 6px;
+        }
+
+        @media (max-width: 1024px) {
+            width: 335px;
+            height: 290px;
+            margin: 6px;
+        }
+
+        img {
+            width: 600px;
+            height: 395px;
+            border-radius: 15px;
+
+            @media (max-width: 600px) {
+                width: 335px;
+                height: 295px;
+            }
+
+            @media (max-width: 1024px) {
+                width: 335px;
+                height: 295px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-size: medium;
+            font-weight: 900;
+            color: rgb(7, 7, 7);
+            background-color: rgba(255, 255, 0, 0.5);
+            position: absolute;
+            top: 87%;
+            left: 1%;
+            text-decoration: none;
+
+            @media (max-width: 600px) {
+                top: 84%;
+                left: 0%;
+            }
+
+            @media (max-width: 1024px) {
+                top: 84%;
+                left: 0%;
+            }
+        }
+    }
+}
+
+.fotoNoticias-chica {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 600px) {
+       grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .foto-chica {
+        display: flex;
+        flex-wrap: wrap;
+        width: 370px;
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        margin: 25px;
+        border-radius: 20px;
+
+        @media (max-width: 1024px) {
+            width: 335px;
+            height: 290px;
+            margin: 6px;
+            border-radius: 14px;
+        }
+        @media (max-width: 600px) {
+            width: 335px;
+            height: 290px;
+            margin: 6px;
+            border-radius: 14px;
+        }
+
+        img {
+            width: 385px;
+            height: 265px;
+
+            @media (max-width: 600px) {
+                width: 510px;
+                height: 295px;
+            }
+
+            @media (max-width: 1024px) {
+                width: 510px;
+                height: 295px;
+            }
+        }
+
+        a {
+            font-size: medium;
+            font-weight: 900;
+            color: rgb(7, 7, 7);
+            background-color: rgba(255, 255, 0, 0.5);
+            position: absolute;
+            top: 72%;
+            left: 0%;
+            text-decoration: none;
+        }
+    }
+}
