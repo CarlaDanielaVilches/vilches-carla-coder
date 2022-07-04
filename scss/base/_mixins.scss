@@ -1,0 +1,13 @@
+@mixin botones($background, $fontWeigth: 600px){
+    background-color: $background;
+    color: black;
+    font-weight: $fontWeigth;
+    padding: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px;
+    cursor: pointer;
+    &:hover{
+    opacity: 0.4;
+}
+}

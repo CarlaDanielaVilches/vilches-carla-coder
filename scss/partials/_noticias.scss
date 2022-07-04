@@ -20,14 +20,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-   
     .fearFoto {
-        display: flex;
-        flex-wrap: wrap;
+        @extend .flex ;
         width: 600px;
         height: 375px;
-        position: relative;
-        margin: 24px;
 
         @media (max-width: 600px) {
             width: 335px;
@@ -84,25 +80,18 @@
 .fotoNoticias-chica {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-    
     @media (max-width: 1024px) {
         grid-template-columns: repeat(2, 1fr);
     }
     @media (max-width: 600px) {
-       grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
 
     .foto-chica {
-        display: flex;
-        flex-wrap: wrap;
+        @extend .flex;
         width: 370px;
         height: 260px;
-        overflow: hidden;
-        position: relative;
-        margin: 25px;
-        border-radius: 20px;
 
         @media (max-width: 1024px) {
             width: 335px;
@@ -120,14 +109,15 @@
         img {
             width: 385px;
             height: 265px;
+            border-radius: 20px;
 
             @media (max-width: 600px) {
-                width: 510px;
+                width: 340px;
                 height: 295px;
             }
 
             @media (max-width: 1024px) {
-                width: 510px;
+                width: 340px;
                 height: 295px;
             }
         }
@@ -139,7 +129,7 @@
             background-color: rgba(255, 255, 0, 0.5);
             position: absolute;
             top: 72%;
-            left: 0%;
+            left: 2%;
             text-decoration: none;
         }
     }
