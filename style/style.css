@@ -1,18 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:ital,wght@1,900&display=swap");
+.flex, .fotosNoticias .fearFoto, .fotoNoticias-chica .foto-chica {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 25px; }
+
 header {
-  background-color: white;
-  font-size: 150%; }
+  font-size: 150%;
+  font-family: 'Anton', sans-serif; }
   header .tituloNav {
     text-align: center;
     font-size: 45px;
     color: #030303;
     font-weight: 900;
-    font-family: 'Anton', sans-serif;
     text-decoration: none; }
   header .navLi {
     list-style-type: none;
     font-size: 25px;
-    font-family: serif;
     transition: all 1s ease; }
     header .navLi:hover {
       transform: scale(1.1); }
@@ -29,14 +33,14 @@ header {
   margin: auto; }
   .containerFotos .cajas {
     width: 330px;
-    box-shadow: 0 2px 0px #bbb;
+    box-shadow: 0 2px 0px rgba(207, 204, 204, 0.363);
     margin: 20px;
     border-radius: 8px;
     text-align: center;
     transition: all 1s; }
     .containerFotos .cajas:hover {
-      transform: translateY(15px);
-      box-shadow: 0 12px 16px #bbb; }
+      transform: translateY(8px);
+      box-shadow: 0 12px 16px rgba(207, 204, 204, 0.363); }
     .containerFotos .cajas img {
       width: 330px;
       height: 220px;
@@ -46,12 +50,13 @@ header {
       font-size: 16px;
       font-weight: 400; }
     .containerFotos .cajas a {
-      font-weight: 600;
+      background-color: #645252;
+      color: black;
+      font-weight: 600px;
       padding: 0 10px;
-      color: #fff;
-      background-color: black;
       text-decoration: none;
       border-radius: 5px;
+      box-shadow: 0 1px 2px;
       cursor: pointer; }
       .containerFotos .cajas a:hover {
         opacity: 0.4; }
@@ -75,12 +80,8 @@ header {
     .fotosNoticias {
       grid-template-columns: repeat(1, 1fr); } }
   .fotosNoticias .fearFoto {
-    display: flex;
-    flex-wrap: wrap;
     width: 600px;
-    height: 375px;
-    position: relative;
-    margin: 24px; }
+    height: 375px; }
     @media (max-width: 600px) {
       .fotosNoticias .fearFoto {
         width: 335px;
@@ -132,14 +133,8 @@ header {
     .fotoNoticias-chica {
       grid-template-columns: repeat(1, 1fr); } }
   .fotoNoticias-chica .foto-chica {
-    display: flex;
-    flex-wrap: wrap;
     width: 370px;
-    height: 260px;
-    overflow: hidden;
-    position: relative;
-    margin: 25px;
-    border-radius: 20px; }
+    height: 260px; }
     @media (max-width: 1024px) {
       .fotoNoticias-chica .foto-chica {
         width: 335px;
@@ -154,14 +149,15 @@ header {
         border-radius: 14px; } }
     .fotoNoticias-chica .foto-chica img {
       width: 385px;
-      height: 265px; }
+      height: 265px;
+      border-radius: 20px; }
       @media (max-width: 600px) {
         .fotoNoticias-chica .foto-chica img {
-          width: 510px;
+          width: 340px;
           height: 295px; } }
       @media (max-width: 1024px) {
         .fotoNoticias-chica .foto-chica img {
-          width: 510px;
+          width: 340px;
           height: 295px; } }
     .fotoNoticias-chica .foto-chica a {
       font-size: medium;
@@ -170,11 +166,11 @@ header {
       background-color: rgba(255, 255, 0, 0.5);
       position: absolute;
       top: 72%;
-      left: 0%;
+      left: 2%;
       text-decoration: none; }
 
 .h4trailers {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Anton', sans-serif;
   padding-left: 450px;
   font-size: 30px;
   font-weight: 100px;
@@ -222,6 +218,36 @@ footer {
     justify-content: space-evenly; }
     footer .iconos .icono {
       color: black; }
+
+.conteiner-comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+  .conteiner-comics .comics {
+    width: 200px;
+    margin: 10px;
+    padding-top: 30px;
+    text-align: center; }
+    .conteiner-comics .comics .volumenes {
+      font-family: 'Anton', sans-serif;
+      font-size: 15px; }
+    .conteiner-comics .comics img {
+      width: 200px;
+      height: 250px;
+      border-radius: 25px;
+      padding-bottom: 10px; }
+    .conteiner-comics .comics .boton {
+      background-color: rgba(207, 204, 204, 0.363);
+      color: black;
+      font-weight: 400px;
+      padding: 0 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0 1px 2px;
+      cursor: pointer; }
+      .conteiner-comics .comics .boton:hover {
+        opacity: 0.4; }
 
 * {
   padding: 0;

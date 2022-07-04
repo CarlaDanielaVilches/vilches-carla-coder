@@ -1,0 +1,28 @@
+.conteiner-comics{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+.comics{
+    width: 200px;
+    margin: 10px;
+    padding-top: 30px;
+    text-align: center;
+.volumenes{
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+img{
+    width: 200px;
+    height: 250px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+
+.boton{
+
+@include botones ( map-get($colores, "gris"), 400px)
+}
+
+}
+}
