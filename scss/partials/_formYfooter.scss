@@ -1,9 +1,10 @@
 form {
     padding: 5px;
-}
+    }
+
 
 footer {
-    background-color:rgba(207, 204, 204, 0.363) ;
+    background-color: $color-blanco;
     .textFooter {
         font-size: 15px;
         font-family: 'Anton', sans-serif;
@@ -15,7 +16,7 @@ footer {
         align-items: center;
         justify-content:space-evenly;
     .icono{
-        color: black;
+        color: $color-negro;
     }
 }
 }

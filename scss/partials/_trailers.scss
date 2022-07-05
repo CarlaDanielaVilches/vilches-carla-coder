@@ -1,21 +1,23 @@
 .h4trailers {
     font-family: 'Anton', sans-serif;
-    padding-left: 450px;
+    padding-left: 505px;
     font-size: 30px;
     font-weight: 100px;
     padding-top: 25px;
+    
+    @media (max-width: 1024px) {
+        padding-left: 315px;
+    }
+
+    @media (max-width: 900px) {
+        padding-left: 180px;
+    }
 
     @media (max-width: 600px) {
-        padding-left: 0px;
+        padding-left: 80px;
     }
 
-    @media (max-width: 1024px) {
-        padding-left: 240px;
-    }
-
-    @media(max-width: 1200px) {
-        padding-left: 100px;
-    }
+    
 }
 
 .trailers {
@@ -25,12 +27,16 @@
     padding-top: 25px;
 
     @media (max-width: 1024px) {
-        padding-left: 0px;
+        padding-left: 200px;
     }
 
-    @media (max-width: 600px) {
-    padding-left: 0px;
+    @media (max-width: 900px) {
+        padding-left: 100px;
     }
+    @media (max-width: 600px) {
+        padding-left: 0px;
+        width: 100%;
+        }
 
     .trailersM{
         border-radius: 15px;

@@ -7,11 +7,12 @@
 
 header {
   font-size: 150%;
-  font-family: 'Anton', sans-serif; }
+  font-family: 'Anton', sans-serif;
+  background-color: white; }
   header .tituloNav {
     text-align: center;
     font-size: 45px;
-    color: #030303;
+    color: black;
     font-weight: 900;
     text-decoration: none; }
   header .navLi {
@@ -33,14 +34,16 @@ header {
   margin: auto; }
   .containerFotos .cajas {
     width: 330px;
-    box-shadow: 0 2px 0px rgba(207, 204, 204, 0.363);
+    box-shadow: 0 2px 2px black;
     margin: 20px;
     border-radius: 8px;
     text-align: center;
-    transition: all 1s; }
+    transition: all 1s;
+    background-color: white;
+    padding-bottom: 10px; }
     .containerFotos .cajas:hover {
       transform: translateY(8px);
-      box-shadow: 0 12px 16px rgba(207, 204, 204, 0.363); }
+      box-shadow: 0 12px 16px white; }
     .containerFotos .cajas img {
       width: 330px;
       height: 220px;
@@ -50,8 +53,8 @@ header {
       font-size: 16px;
       font-weight: 400; }
     .containerFotos .cajas a {
-      background-color: #645252;
-      color: black;
+      background-color: black;
+      color: white;
       font-weight: 600px;
       padding: 0 10px;
       text-decoration: none;
@@ -78,7 +81,8 @@ header {
       grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) {
     .fotosNoticias {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 50px; } }
   .fotosNoticias .fearFoto {
     width: 600px;
     height: 375px; }
@@ -108,8 +112,9 @@ header {
       text-decoration: none;
       font-size: medium;
       font-weight: 900;
-      color: #070707;
-      background-color: rgba(255, 255, 0, 0.5);
+      color: black;
+      background-color: rgba(207, 204, 204, 0.363);
+      border-radius: 6px;
       position: absolute;
       top: 87%;
       left: 1%;
@@ -131,7 +136,8 @@ header {
       grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) {
     .fotoNoticias-chica {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 50px; } }
   .fotoNoticias-chica .foto-chica {
     width: 370px;
     height: 260px; }
@@ -148,7 +154,7 @@ header {
         margin: 6px;
         border-radius: 14px; } }
     .fotoNoticias-chica .foto-chica img {
-      width: 385px;
+      width: 380px;
       height: 265px;
       border-radius: 20px; }
       @media (max-width: 600px) {
@@ -162,8 +168,9 @@ header {
     .fotoNoticias-chica .foto-chica a {
       font-size: medium;
       font-weight: 900;
-      color: #070707;
-      background-color: rgba(255, 255, 0, 0.5);
+      color: black;
+      background-color: rgba(207, 204, 204, 0.363);
+      border-radius: 6px;
       position: absolute;
       top: 72%;
       left: 2%;
@@ -171,19 +178,19 @@ header {
 
 .h4trailers {
   font-family: 'Anton', sans-serif;
-  padding-left: 450px;
+  padding-left: 505px;
   font-size: 30px;
   font-weight: 100px;
   padding-top: 25px; }
-  @media (max-width: 600px) {
-    .h4trailers {
-      padding-left: 0px; } }
   @media (max-width: 1024px) {
     .h4trailers {
-      padding-left: 240px; } }
-  @media (max-width: 1200px) {
+      padding-left: 315px; } }
+  @media (max-width: 900px) {
     .h4trailers {
-      padding-left: 100px; } }
+      padding-left: 180px; } }
+  @media (max-width: 600px) {
+    .h4trailers {
+      padding-left: 80px; } }
 
 .trailers {
   width: 100%;
@@ -192,10 +199,14 @@ header {
   padding-top: 25px; }
   @media (max-width: 1024px) {
     .trailers {
-      padding-left: 0px; } }
+      padding-left: 200px; } }
+  @media (max-width: 900px) {
+    .trailers {
+      padding-left: 100px; } }
   @media (max-width: 600px) {
     .trailers {
-      padding-left: 0px; } }
+      padding-left: 0px;
+      width: 100%; } }
   .trailers .trailersM {
     border-radius: 15px; }
     @media (max-width: 600px) {
@@ -206,7 +217,7 @@ form {
   padding: 5px; }
 
 footer {
-  background-color: rgba(207, 204, 204, 0.363); }
+  background-color: white; }
   footer .textFooter {
     font-size: 15px;
     font-family: 'Anton', sans-serif;
@@ -223,7 +234,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto; }
+  margin: auto;
+  padding-top: 20px; }
+  .conteiner-comics .text-comics {
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 20px black; }
   .conteiner-comics .comics {
     width: 200px;
     margin: 10px;
@@ -238,9 +255,9 @@ footer {
       border-radius: 25px;
       padding-bottom: 10px; }
     .conteiner-comics .comics .boton {
-      background-color: rgba(207, 204, 204, 0.363);
-      color: black;
-      font-weight: 400px;
+      background-color: black;
+      color: white;
+      font-weight: 600px;
       padding: 0 10px;
       text-decoration: none;
       border-radius: 5px;
@@ -248,6 +265,9 @@ footer {
       cursor: pointer; }
       .conteiner-comics .comics .boton:hover {
         opacity: 0.4; }
+
+body {
+  background-color: #98a886; }
 
 * {
   padding: 0;

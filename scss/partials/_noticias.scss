@@ -18,6 +18,7 @@
 
     @media (max-width: 600px) {
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 50px;
     }
 
     .fearFoto {
@@ -57,8 +58,9 @@
             text-decoration: none;
             font-size: medium;
             font-weight: 900;
-            color: rgb(7, 7, 7);
-            background-color: rgba(255, 255, 0, 0.5);
+            color: $color-negro;
+            background-color: $color-gris;
+            border-radius: 6px;
             position: absolute;
             top: 87%;
             left: 1%;
@@ -85,6 +87,7 @@
     }
     @media (max-width: 600px) {
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 50px;
     }
 
 
@@ -107,7 +110,7 @@
         }
 
         img {
-            width: 385px;
+            width: 380px;
             height: 265px;
             border-radius: 20px;
 
@@ -125,8 +128,9 @@
         a {
             font-size: medium;
             font-weight: 900;
-            color: rgb(7, 7, 7);
-            background-color: rgba(255, 255, 0, 0.5);
+            color: $color-negro;
+            background-color: $color-gris;
+            border-radius: 6px;
             position: absolute;
             top: 72%;
             left: 2%;
