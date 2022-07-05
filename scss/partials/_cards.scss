@@ -5,14 +5,16 @@
     margin: auto;
     .cajas{
         width: 330px;
-        box-shadow: 0 2px 0px  rgba(207, 204, 204, 0.363);
+        box-shadow: 0 2px 2px  $color-negro;
         margin: 20px;
         border-radius: 8px;
         text-align: center;
         transition: all 1s;
+        background-color: $color-blanco;
+        padding-bottom: 10px;
         &:hover {
             transform: translateY(8px);
-            box-shadow: 0 12px 16px rgba(207, 204, 204, 0.363) ;
+            box-shadow: 0 12px 16px $color-blanco;
         }
         img {
             width: 330px;
@@ -26,7 +28,17 @@
         }
 
         a {
-            @include botones(map-get($colores, "blanco"))
+            background-color: $color-negro;
+            color: $color-blanco;
+            font-weight: 600px;
+            padding: 0 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px;
+            cursor: pointer;
+            &:hover{
+            opacity: 0.4;
             }
         }
     }
+}

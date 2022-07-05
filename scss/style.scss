@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:ital,wght@1,900&display=swap');
 @import 'base/variables';
 @import 'base/extends';
-@import 'base/mixins';
 @import 'partials/header';
 @import 'partials/cards';
 @import 'partials/noticias';
@@ -9,7 +8,10 @@
 @import 'partials/formYfooter';
 @import 'partials/comics';
 
-
+body{
+    background-color:  #98a886;
+    ;
+}
 * {
     padding: 0;
     margin: 0;

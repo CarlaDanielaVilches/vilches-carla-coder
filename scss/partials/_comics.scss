@@ -3,6 +3,13 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    padding-top: 20px;
+    .text-comics{
+        font-size: 18px;
+        text-align: center;
+        background-color: $color-blanco;
+        box-shadow: 2px 2px 20px  $color-negro;
+    }
 .comics{
     width: 200px;
     margin: 10px;
@@ -20,9 +27,18 @@ img{
 }
 
 .boton{
-
-@include botones ( map-get($colores, "gris"), 400px)
+    background-color: $color-negro;
+    color: $color-blanco ;
+    font-weight: 600px;
+    padding: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px;
+    cursor: pointer;
+    &:hover{
+    opacity: 0.4;
 }
 
+}
 }
 }
