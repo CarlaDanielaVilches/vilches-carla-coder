@@ -9,6 +9,8 @@
         text-align: center;
         background-color: $color-blanco;
         box-shadow: 2px 2px 20px  $color-negro;
+        padding: 20px;
+        border-radius: 50px;
     }
 .comics{
     width: 200px;
@@ -17,7 +19,7 @@
     text-align: center;
 .volumenes{
     font-family: 'Anton', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 img{
     width: 200px;
@@ -33,7 +35,6 @@ img{
     padding: 0 10px;
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 0 1px 2px;
     cursor: pointer;
     &:hover{
     opacity: 0.4;
